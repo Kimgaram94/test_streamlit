@@ -6,8 +6,7 @@ import numpy as np
 st.write("# 보험료 예측")
 st.write("### Insurance predict")
 #이미지
-st.image('https://www.google.com/imgres?imgurl=https%3A%2F%2Fas2.ftcdn.net%2Fv2%2Fjpg%2F02%2F38%2F67%2F33%2F1000_F_238673309_nqIr8os4FhvqRrzwwHbvmyhs5Z3AKRRx.jpg&imgrefurl=https%3A%2F%2Fstock.adobe.com%2Fimages%2Fhealth-insurance-man-standing-cross-legged-near-the-signed-health-insurance-policy-human-life-insurance-healthcare-concept-vector-illustration-in-flat-cartoon-style%2F238673309&tbnid=h6fWsSp8StYwvM&vet=12ahUKEwisr9bF0Z37AhXBd94KHTtNBDIQMygNegUIARDvAQ..i&docid=FCJR2SLKDnxoTM&w=1000&h=1000&q=insurance%20cartoon&ved=2ahUKEwisr9bF0Z37AhXBd94KHTtNBDIQMygNegUIARDvAQ')
-# 첫번째 행
+st.image('https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fimages%2Fhealth-insurance-man-standing-cross-legged-near-the-signed-health-insurance-policy-human-life-insurance-healthcare-concept-vector-illustration-in-flat-cartoon-style%2F238673309&psig=AOvVaw2BV4PYlIwhVc3v3H9f4es-&ust=1667964349512000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCMDOoMbRnfsCFQAAAAAdAAAAABAE')
 r1_col1, r1_col2, r1_col3 = st.columns(3)
 
 age = r1_col1.number_input("age", step=1, value=23)
