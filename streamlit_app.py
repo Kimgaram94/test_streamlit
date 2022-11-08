@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # 헤드라인
-st.write("# 보험료 예측")
+st.write("# 보험료 예측(### Insurance predict)")
 st.write("### Insurance predict")
 
 #이미지
