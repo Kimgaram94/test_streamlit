@@ -5,7 +5,8 @@ import numpy as np
 # 헤드라인
 st.write("# 보험료 예측")
 st.write("### Insurance predict")
-
+#이미지
+st.image(https://www.google.com/imgres?imgurl=https%3A%2F%2Fas2.ftcdn.net%2Fv2%2Fjpg%2F02%2F38%2F67%2F33%2F1000_F_238673309_nqIr8os4FhvqRrzwwHbvmyhs5Z3AKRRx.jpg&imgrefurl=https%3A%2F%2Fstock.adobe.com%2Fimages%2Fhealth-insurance-man-standing-cross-legged-near-the-signed-health-insurance-policy-human-life-insurance-healthcare-concept-vector-illustration-in-flat-cartoon-style%2F238673309&tbnid=h6fWsSp8StYwvM&vet=12ahUKEwjf68-h0J37AhUQTPUHHaXrAaIQMygJegUIARDZAQ..i&docid=FCJR2SLKDnxoTM&w=1000&h=1000&q=insurance%20image%20cartoon&ved=2ahUKEwjf68-h0J37AhUQTPUHHaXrAaIQMygJegUIARDZAQ)
 # 첫번째 행
 r1_col1, r1_col2, r1_col3 = st.columns(3)
 
