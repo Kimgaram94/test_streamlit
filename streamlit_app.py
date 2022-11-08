@@ -1,10 +1,12 @@
 import streamlit as st
 import joblib
 import numpy as np
+from PIL import Image
 
 # 헤드라인
 st.write("# 보험료 예측")
 st.write("### Insurance predict")
+
 #이미지
 st.image('https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fimages%2Fhealth-insurance-man-standing-cross-legged-near-the-signed-health-insurance-policy-human-life-insurance-healthcare-concept-vector-illustration-in-flat-cartoon-style%2F238673309&psig=AOvVaw2BV4PYlIwhVc3v3H9f4es-&ust=1667964349512000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCMDOoMbRnfsCFQAAAAAdAAAAABAE')
 r1_col1, r1_col2, r1_col3 = st.columns(3)
